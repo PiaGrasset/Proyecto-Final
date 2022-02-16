@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif; }
+
+fondoIndex {
+  background-image: url("../img/fondoIndex.jpg"); }
+
+fondoAbout {
+  background-image: url("../img/fondoAbout.jpg"); }
+
+fondoContact {
+  background-image: url("../img/fondoContact.jpg"); }
+
+fondoRecipes {
+  background-image: url("../img/fondoRecipes.jpg"); }
+
+fondoSpecial {
+  background-image: url("../img/fondoSpecial.jpg"); }

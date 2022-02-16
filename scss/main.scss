@@ -21,11 +21,10 @@
 // }
 
 // VARIABLES
-@import 'utilities/colors';
+@import 'utilities/variables';
 @import 'utilities/extend';
 @import 'utilities/maps';
-@import 'utilities/mixins';
-@import 'utilities/sizes';
+@import 'utilities/mixin';
 @import 'components/cards';
 @import 'components/forms';
 @import 'components/navbar';
@@ -36,4 +35,6 @@
 @import 'sections/contact';
 @import 'sections/recipes';
 @import 'sections/specialOccasions';
+@import 'sections/header-footer/header';
+@import 'sections/header-footer/footer';
 

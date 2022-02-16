@@ -1,0 +1,16 @@
+// // MIXIN SENCILLO
+// @mixin contenedor {
+//     max-width: 600px;
+//     text-align: center;
+//     margin: 0 auto;
+//     background-color: $naranja;
+// }
+
+// // MIXIN LIKE A PRO
+// @mixin fontStyle ($amarillo, $tamanioLetra, $negro) {
+//     color: $amarillo;
+//     font-size: $tamanioLetra;
+//     &:hover {
+//         background-color: $negro;
+//     }
+// }
