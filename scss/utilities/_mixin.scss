@@ -1,16 +1,29 @@
-// // MIXIN SENCILLO
-// @mixin contenedor {
-//     max-width: 600px;
-//     text-align: center;
-//     margin: 0 auto;
-//     background-color: $naranja;
-// }
+@mixin fondoMain ($imgFondo) {
+    background-image: $imgFondo;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
+}
 
-// // MIXIN LIKE A PRO
-// @mixin fontStyle ($amarillo, $tamanioLetra, $negro) {
-//     color: $amarillo;
-//     font-size: $tamanioLetra;
-//     &:hover {
-//         background-color: $negro;
-//     }
-// }
+.fondoIndex {
+    @include fondoMain (url('../../img/fondoIndex.jpg'));
+}
+
+.fondoAbout {
+    @include fondoMain (url('../../img/fondoAbout.jpg'));
+}
+
+.fondoContact {
+    @include fondoMain (url('../../img/fondoContact.jpg'));
+}
+
+.fondoRecipes {
+    @include fondoMain (url('../../img/fondoRecipes.jpg'));
+}
+
+.fondoSpecial {
+    @include fondoMain (url('../../img/fondoSpecial.jpg'));
+}

@@ -8,41 +8,38 @@
 //     margin-right: 55px;
 // }
 
-// .sectionSpecial {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-evenly;
-// }
-
-// div .card {
-//     margin-top: 4vh;
-//     border: white solid 15px;
-//     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-// }
-
-// .card {
-//     background-color: rgba(0, 138, 255, 0.5);
-// }
-
-// .card-title {
-//     color: white;
-//     font-size: 1.5em;
-//     text-align: center;
-//     text-shadow: 2px 2px 4px #000000;
-// }
-
-// .card-body .card-text {
-//     color: white;
-//     text-align: center;
-//     font-size: .9em;
-//     text-align: center;
-//     text-shadow: 2px 2px 4px #000000;
-// }
-
-// .btn-primary {
-//     color: white;
-//     background-color: #008AFF;
-//     border-color: #008AFF;
-//     align-items: center;
-//     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-// }
+.sectionSpecial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .card {
+        margin-top: 4vh;
+        border: white solid 15px;
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: $sombraBox;
+        background-color: rgba(0, 138, 255, 0.5);
+        title {
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+            // text-shadow: 2px 2px 4px #000000;
+            text-shadow: $sombraTexto;
+        }
+        .card-body .card-text {
+            color: white;
+            text-align: center;
+            font-size: .9em;
+            text-align: center;
+            // text-shadow: 2px 2px 4px #000000;
+            text-shadow: $sombraTexto;
+        }
+        .btn-primary {
+            color: white;
+            background-color: $azul;
+            border-color: $azul;
+            align-items: center;
+            // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: $sombraBox;
+        }
+    }
+}
