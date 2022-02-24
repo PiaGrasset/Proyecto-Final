@@ -8,14 +8,10 @@ $sombraTexto: 4px 4px 4px #000000;
 $sombraBox: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 
 // // FONT SIZES
-// $ancho: 1050px;
-// $font-size-grande: 5rem;
+$h2Nav: 4rem;
+$h1Main: 1.5rem;
 
-
-// .bg-color-primary {
-//     background-color: $colorPrimario;
-// }
-
-// bg-secondary {
-//     background-color: coral;
-// }
+// // HEIGHTS
+    $headerHeight: 24vh;
+    $footerHeight: 10vh;
+    $mainHeight: 100vh - ($headerHeight + $footerHeight);

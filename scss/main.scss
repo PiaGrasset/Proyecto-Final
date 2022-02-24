@@ -5,20 +5,20 @@
     font-family: 'Raleway', sans-serif;
 }
 
-// main {
-//     background-color: black;
-//     height: 500px;
-// }
+main {
+    background-color: black;
+    height: 500px;
+}
 
-// h1 {
-//     font-size: 1.5em;
-//     font-style: none;
-//     font-weight: bold;
-//     color: white;
-//     text-shadow: 2px 2px 4px #000000;
-//     background-color: rgba(0, 138, 255, 0.5);
-//     text-align: center;
-// }
+h1 {
+    font-size: $h1Main;
+    font-style: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: $sombraTexto;
+    background-color: rgba(0, 138, 255, 0.5);
+    text-align: center;
+}
 
 // VARIABLES
 @import 'utilities/variables';
