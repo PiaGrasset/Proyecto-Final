@@ -1,0 +1,17 @@
+1- Incorporé etiquetas meta keywords:
+index: dough, pies, croissant, knead, batch, flaky, crisp, pastries, layers, baked
+about ut: team, about, started, original, business, blog, story, life, baker, goal
+contact: contact, email, log, password, suscription, information, reply, monthly, payment, promo
+recipes: recipe, measurements, ingredients, yield, tablespoons, texture, baking, techniques, knead, mix
+special occassions: christmas, events, birthday, occasions, serving, guests, share, halloween, parties, holydays
+
+2- Incorporé etiquetas meta description:
+index: Fresh, flavorful and (mostly) healthy recipes made for real, actual, every day life. Helping you celebrate the joy of food
+about ut: I'm the voice, author, and creator behind Bakery Co. Started as a casual hobby for nights and weekends has now grown into a full-blown business
+contact: Get our all-time most popular recipes, organized and neatly delivered right to your inbox (with a free printable cookbook to boot!)
+recipes: We’ve organized these recipes every way we could think of so you don't have to! We’re sure you’ll find just what you were looking for.
+special occassions: There's loads of food for special occasions. Browse party food ideas, dinner party recipes, birthday cakes, etc.
+
+3- Puse descripción en todos los alts de todas las imágenes del suscription
+
+4- Corregí la jerarquia de los h1, h2, etc
