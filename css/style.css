@@ -9,11 +9,9 @@ main {
   height: 500px; }
 
 h1 {
-  font-size: 1.5em;
   font-style: none;
   font-weight: bold;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
   background-color: rgba(0, 138, 255, 0.5);
   text-align: center; }
 
@@ -101,7 +99,6 @@ h1 {
     padding: 10px; }
 
 .formulario {
-  height: 90vh;
   display: flex;
   align-items: center;
   flex-direction: column;

@@ -15,19 +15,14 @@ h1 {
     font-style: none;
     font-weight: bold;
     color: white;
-    text-shadow: $sombraTexto;
+    text-shadow: $textShadow;
     background-color: rgba(0, 138, 255, 0.5);
     text-align: center;
 }
 
 // VARIABLES
 @import 'utilities/variables';
-@import 'utilities/extend';
-@import 'utilities/maps';
 @import 'utilities/mixin';
-@import 'components/cards';
-@import 'components/forms';
-@import 'components/navbar';
 
 // IMPORTS
 @import 'sections/index';
