@@ -1,20 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif; }
-
-main {
-  background-color: black;
-  height: 500px; }
-
-h1 {
-  font-style: none;
-  font-weight: bold;
-  color: white;
-  background-color: rgba(0, 138, 255, 0.5);
-  text-align: center; }
-
 .fondoIndex {
   background-image: url("../../img/fondoIndex.jpg");
   background-size: 100%;
@@ -252,3 +235,22 @@ header {
       transform: scale(1.2);
       color: #008AFF;
       background-color: black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+main {
+  background-color: black;
+  height: 500px; }
+
+h1 {
+  font-size: 1.5rem;
+  font-style: none;
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+  background-color: rgba(0, 138, 255, 0.5);
+  text-align: center; }

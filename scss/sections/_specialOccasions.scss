@@ -1,13 +1,3 @@
-// .fondoSpecial {
-//     background-image: url("../img/fondoSpecial.jpg");
-//     background-size: 100%;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     height: 80vh;
-//     margin-left: 55px;
-//     margin-right: 55px;
-// }
-
 .sectionSpecial {
     display: flex;
     flex-direction: row;
@@ -16,14 +6,14 @@
         margin-top: 4vh;
         border: white solid 15px;
         // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        box-shadow: $sombraBox;
+        box-shadow: $boxShadow;
         background-color: rgba(0, 138, 255, 0.5);
         title {
             color: white;
             font-size: 1.5em;
             text-align: center;
             // text-shadow: 2px 2px 4px #000000;
-            text-shadow: $sombraTexto;
+            text-shadow: $textShadow;
         }
         .card-body .card-text {
             color: white;
@@ -31,7 +21,7 @@
             font-size: .9em;
             text-align: center;
             // text-shadow: 2px 2px 4px #000000;
-            text-shadow: $sombraTexto;
+            text-shadow: $textShadow;
         }
         .btn-primary {
             color: white;
@@ -39,7 +29,7 @@
             border-color: $azul;
             align-items: center;
             // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: $sombraBox;
+            box-shadow: $boxShadow;
         }
     }
 }

@@ -1,3 +1,16 @@
+// VARIABLES
+@import 'utilities/variables';
+@import 'utilities/mixin';
+
+// IMPORTS
+@import 'sections/index';
+@import 'sections/aboutUs';
+@import 'sections/contact';
+@import 'sections/recipes';
+@import 'sections/specialOccasions';
+@import 'sections/header-footer/header';
+@import 'sections/header-footer/footer';
+
 * {
     margin: 0;
     padding: 0;
@@ -19,17 +32,3 @@ h1 {
     background-color: rgba(0, 138, 255, 0.5);
     text-align: center;
 }
-
-// VARIABLES
-@import 'utilities/variables';
-@import 'utilities/mixin';
-
-// IMPORTS
-@import 'sections/index';
-@import 'sections/aboutUs';
-@import 'sections/contact';
-@import 'sections/recipes';
-@import 'sections/specialOccasions';
-@import 'sections/header-footer/header';
-@import 'sections/header-footer/footer';
-
