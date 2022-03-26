@@ -36,7 +36,7 @@ h2 {
                 color: white;
                 font-size: 25px;
                 margin: 15px;
-                li :hover {
+                &:hover {
                     font-style: italic;
                     color: $azul;
                 }

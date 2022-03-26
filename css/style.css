@@ -115,7 +115,7 @@
     background-color: rgba(0, 138, 255, 0.5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
     cursor: pointer; }
-    .formulario #buttonFormulario #buttonFormulario:hover {
+    .formulario #buttonFormulario:hover {
       background-color: #008AFF; }
 
 .sectionRecetas {
@@ -213,7 +213,7 @@ header {
         color: white;
         font-size: 25px;
         margin: 15px; }
-        header .navHeader ul li a li :hover {
+        header .navHeader ul li a:hover {
           font-style: italic;
           color: #008AFF; }
 
@@ -231,7 +231,7 @@ header {
     margin-top: 2vh;
     width: 30px;
     height: 30px; }
-    .footer .footerIconos .footerIconos:hover {
+    .footer .footerIconos:hover {
       transform: scale(1.2);
       color: #008AFF;
       background-color: black; }
