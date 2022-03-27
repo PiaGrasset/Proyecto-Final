@@ -1,18 +1,20 @@
 .sectionSpecial {
     display: flex;
+    margin: 0 auto;
     flex-direction: row;
     justify-content: space-evenly;
     .card {
-        margin-top: 4vh;
+        margin-top: 2vh;
         border: white solid 15px;
-        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         box-shadow: $boxShadow;
         background-color: rgba(0, 138, 255, 0.5);
-        title {
+        .card-img-top {
+            margin-top: 2vh;
+        }
+        .card-title {
             color: white;
             font-size: 1.5em;
             text-align: center;
-            // text-shadow: 2px 2px 4px #000000;
             text-shadow: $textShadow;
         }
         .card-body .card-text {
@@ -20,16 +22,18 @@
             text-align: center;
             font-size: .9em;
             text-align: center;
-            // text-shadow: 2px 2px 4px #000000;
             text-shadow: $textShadow;
         }
         .btn-primary {
             color: white;
             background-color: $azul;
             border-color: $azul;
-            align-items: center;
-            // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             box-shadow: $boxShadow;
+                &:hover {
+                    transform: scale(1.2);
+                    color: $azul;
+                    background-color: black;
+                }
         }
     }
 }
